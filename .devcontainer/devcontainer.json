@@ -1,6 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
   "features": {
-    // Opsional: Tambah fitur lain (Python, Node.js, dll)
+    "docker-in-docker": {
+      "version": "latest",
+      "moby": true
+    }
   }
 }
